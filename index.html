@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <title>Navbar with Logo</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="https://cdn2.iconfinder.com/data/icons/summer-detox/97/watercolor-20-01-256.png" alt="Logo" id="logo">
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Our Package</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <h2>Selamat Datang Di Agen TravelKU</h2>
+    <p>Destinasi Impian, Pengalaman Tak Terlupakan bersama Agen TravelKU!</p>
+
+   <div class="row">
+  <div class="column" style="background-color:">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://media.cntraveler.com/photos/58e3cb5203ca992cb6a9cc1f/16:9/w_2560%2Cc_limit/GettyImages-494386476.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revisi-2020/revamp-image/raja-ampat/2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://asset.kompas.com/crops/PZkNa1XEcC9huIv3Gd1tHebvzIA=/0x0:780x520/1200x800/data/photo/2023/07/25/64bf6a78dfe73.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br>
+<div>
+   <div class="profile-container">
+        <div class="profile-details">
+            
+            <p>Dapatkan Perjalanan terbaikmu Hanya disini</p>
+        </div>
+        
+    </div> 
+</div>
+<br>
+<div>
+    <div class="profile-container">
+        <div class="profile-details">
+            <h1>MSDDH</h1>
+            <p>Tour Guide</p>
+        </div>
+        <div class="profile-image">
+            <img src="https://cdn1.iconfinder.com/data/icons/photo-stickers-hats/128/hat_1-256.png" alt="Profile Image">
+        </div>
+    </div>
+</div>
+<br>
+<div>
+   <div class="profile-container">
+        <div class="profile-details">
+            
+             <h1>Mengapa Memilih Agen Travel Kami?</h1>
+<br>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">Apa keunggulan utama dari agen travel Anda?</div>
+            <div class="answer">Agen travel kami menawarkan layanan yang komprehensif, termasuk paket perjalanan yang disesuaikan, pemandu wisata berpengalaman, dan dukungan 24/7 untuk memastikan pengalaman perjalanan yang tanpa masalah.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Bagaimana cara memesan paket perjalanan?</div>
+            <div class="answer">Pemesanan dapat dilakukan secara online melalui situs web kami atau menghubungi layanan pelanggan kami. Tim kami akan dengan senang hati membantu Anda dalam proses pemesanan.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Apakah ada diskon khusus yang tersedia?</div>
+            <div class="answer">Ya, kami menyediakan berbagai penawaran dan diskon khusus untuk pelanggan setia kami. Pastikan untuk memeriksa halaman penawaran kami atau berlangganan buletin kami untuk mendapatkan informasi terbaru.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Bagaimana jika ada perubahan rencana perjalanan?</div>
+            <div class="answer">Kami memahami bahwa rencana dapat berubah. Hubungi tim layanan pelanggan kami, dan kami akan berusaha sebaik mungkin untuk membantu Anda mengatasi perubahan tersebut tanpa masalah tambahan.</div>
+        </div>
+    </div>
+        </div>
+        
+    </div> 
+</div>
+  </div>
+  <div class="column" style="background-color:">
+<div class="container">
+  <form action="#" onsubmit="return validateForm()">
+        <h2>Hubungi Kami</h2>
+        <p>Dapatkan Perjalanan terbaikmu Hanya disini</p>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">Nama Lengkap</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" required placeholder="Nama Lengkap">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="email" name="email" required placeholder="Email">
+                <span class="error-message" id="emailError"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="Pilih Destinasi">
+                    <option value="bali">Bali</option>
+                    <option value="rajaampat">Raja Ampat</option>
+                    <option value="danautoba">Danau Toba</option>
+                </select>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    
+</div>
+</div>
+<div></div>
+<div class="package">
+    <img src="https://awsimages.detik.net.id/community/media/visual/2023/07/19/ilustrasi-pulau-bali_169.jpeg?w=600&q=90" alt="Package 1">
+    <div class="package-content">
+        <h3>Pulau Dewata</h3>
+        <p>
+Bali, juga dikenal sebagai Pulau Dewata, merupakan sebuah pulau di Indonesia yang terkenal karena keindahan alamnya, keberagaman budayanya, dan daya tarik pariwisatanya. Pulau ini menawarkan pantai-pantai cantik, sawah-sawah bertingkat yang hijau, gunung berapi yang megah, dan terumbu karang yang indah.
+
+Bali memiliki warisan budaya yang kaya, tercermin dalam kuil-kuil Hindu yang megah, tarian tradisional yang menakjubkan, dan upacara-upacara keagamaan yang berwarna. Keberagaman seni dan kerajinan tangan, seperti ukiran kayu dan patung, juga menjadi ciri khas Bali.</p>
+    </div>
+</div>
+
+<div class="package">
+    <img src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revision-2019/4.jpg" alt="Package 2">
+    <div class="package-content">
+        <h3>Candi Borobudur</h3>
+        <p>Candi Borobudur adalah situs warisan dunia UNESCO yang terletak di Magelang, Jawa Tengah, Indonesia. Candi ini merupakan kompleks candi Buddha terbesar di dunia. Dibangun pada abad ke-9 oleh dinasti Syailendra, Borobudur memiliki desain piramida terbalik dengan tiga tingkat utama yang mewakili dunia alam semesta dalam ajaran Buddha.
+
+Candi Borobudur memiliki 504 arca Buddha dan lebih dari 2.600 panel relief yang menggambarkan ajaran Buddha dan kisah-kisah kehidupan sehari-hari pada masa itu. Puncak candi menampilkan stupa utama yang melambangkan pencapaian pencerahan. Pengunjung dapat menikmati pemandangan indah pegunungan dan hamparan sawah Jawa Tengah dari atas candi.</p>
+    </div>
+</div>
+
+<div class="package">
+    <img src="https://asset.kompas.com/crops/eIP2s99xXyYl2dhwW9hDQ6QxisY=/0x0:780x520/750x500/data/photo/2019/09/26/5d8c64544d656.jpg" alt="Package 3">
+    <div class="package-content">
+        <h3>Pulau Komodo</h3>
+        <p>Pulau Komodo adalah sebuah pulau yang terletak di Kepulauan Nusa Tenggara, Indonesia, terkenal sebagai habitat alami bagi komodo, jenis kadal terbesar di dunia. Pulau ini menjadi bagian dari Taman Nasional Komodo yang juga melibatkan beberapa pulau lainnya.
+
+Pulau Komodo menawarkan pemandangan alam yang spektakuler, termasuk bukit-bukit yang gersang, hutan-hutan kering, dan pantai-pantai yang indah. Keistimewaan pulau ini adalah populasi komodo yang hidup bebas di habitat aslinya. Para pengunjung dapat melakukan trekking untuk melihat komodo secara langsung, serta menikmati keindahan bawah lautnya dengan snorkeling atau menyelam.</p>
+    </div>
+</div>
+
+<div class="package">
+    <img src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/destination-update-may-2019/RA_wayagisland_indtravel.jpg" alt="Package 4">
+    <div class="package-content">
+        <h3>Raja Ampat</h3>
+        <p>Raja Ampat adalah sebuah gugusan pulau yang terletak di ujung barat laut Papua, Indonesia. Terkenal sebagai salah satu tujuan penyelaman terbaik di dunia, Raja Ampat menawarkan keindahan alam bawah laut yang luar biasa dengan terumbu karang yang kaya dan beragam hayati laut.
+
+Gugusan pulau ini dikelilingi oleh air laut yang jernih dan biru, dan menawarkan pemandangan indah seperti laguna berwarna-warni, tebing-tebing kapur, dan pulau-pulau kecil yang eksotis. Raja Ampat juga menjadi rumah bagi berbagai spesies ikan, moluska, dan biota laut lainnya, termasuk beberapa yang dianggap langka.
+
+</p>
+    </div>
+</div>
+
+<div class="package">
+    <img src="https://api2.kemenparekraf.go.id/storage/app/resources/PARIWISATA_STORYNOMICS_TOURISM_shutterstock_385096972_franshendrik_Tambunan_d03d3440db.jpg" alt="Package 5">
+    <div class="package-content">
+        <h3>Danau toba</h3>
+        <p>Danau Toba adalah danau vulkanik terbesar di Indonesia dan juga di dunia, terletak di Sumatera Utara. Danau ini terbentuk dari letusan gunung berapi yang sangat besar, dan kini membentuk kaldera raksasa yang memikat wisatawan dari seluruh dunia.
+
+Keistimewaan Danau Toba adalah pulau tengahnya yang disebut Pulau Samosir. Pulau ini merupakan pulau di tengah danau terbesar di dunia. Kawasan sekitar Danau Toba juga dikenal karena keindahan alamnya yang spektakuler, termasuk bukit-bukit hijau yang menjulang, hutan-hutan lebat, dan pemandangan air terjun yang menakjubkan.
+
+</p>
+    </div>
+</div>
+
+<div class="package">
+    <img src="https://cdn0-production-images-kly.akamaized.net/5La9RhRdrHFYY6_pVLk7tT7uwFQ=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3158827/original/006140400_1592791294-rumah-gadang-4914211_1280.jpg" alt="Package 6">
+    <div class="package-content">
+        <h3>Jam Gadang</h3>
+        <p>Jam Gadang adalah sebuah menara jam yang menjadi ikon Kota Bukittinggi, Sumatera Barat, Indonesia. Nama "Jam Gadang" berasal dari bahasa Minangkabau yang berarti "jam besar" atau "jam besar di padang." Jam Gadang merupakan salah satu landmark yang sangat terkenal di Sumatera Barat dan sering dianggap sebagai simbol dari provinsi tersebut.
+
+Jam Gadang memiliki arsitektur yang mencirikan gaya bangunan khas Minangkabau. Menara jam ini dibangun pada tahun 1926 oleh arsitek Belanda dengan nama Fort de Kock. Jam Gadang memiliki jam dengan ukuran yang besar dan menara setinggi sekitar 26 meter. Bangunan ini memiliki empat jam yang besar di setiap sisinya dan menjadi pusat perhatian di Alun-Alun Kota Bukittinggi.
+
+</p>
+    </div>
+</div>
+</div>
+<div>
+    <div class="card">
+    <div class="header">Tunggu Apalagi, Segera Booking</div>
+    <div class="description">Stok Terbatas, Segera hubungi kontak Agen kami</div>
+    <a href="#hubungi" class="button">Hubungi</a>
+  </div>
+  <div>
+    <div class="footer">
+    <p>&copy; 2023 Agen Travelku. All Rights Reserved.</p>
+    <p>Contact us: <a href="mailto:info@agentravelku.com">info@agentravelku.com</a></p>
+    <p>Follow us on <a href="https://www.instagram.com/agentravelku/" target="_blank">Instagram</a> | <a href="https://www.facebook.com/agentravelku/" target="_blank">Facebook</a></p>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
